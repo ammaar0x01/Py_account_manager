@@ -1,0 +1,32 @@
+HELP
+
+read sql from a .sql file 
+ with open('s.sql', 'r') as sql_file:
+            sql_script = sql_file.read()
+        self._cursor.executescript(sql_script)
+---
+
+hide user input 
+- https://youtu.be/qJmgJ65otok
+---
+
+auto increment
+- https://stackoverflow.com/questions/26652393/how-to-correctly-set-auto-increment-fo-a-column-in-sqlite-using-python
+CREATE TABLE q1_person_name
+                 (name_id INTEGER PRIMARY KEY,
+                  first_name varchar(20) NOT NULL,
+                  last_name varchar(20) NOT NULL)'
+---
+
+change dir in python for linux 
+- https://www.namehero.com/blog/how-to-change-a-directory-in-python/
+---
+
+asterisk password
+        import pwinput 
+- https://stackoverflow.com/questions/35805078/how-do-i-convert-a-password-into-asterisks-while-it-is-being-entered
+---
+
+clean my code 
+https://refactoring.guru/refactoring
+
